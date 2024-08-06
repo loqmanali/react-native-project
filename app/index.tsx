@@ -1,7 +1,8 @@
-import GoalInput from "@/components/GoalInput";
-import GoalItem from "@/components/GoalItem";
+
 import React, { useState } from "react";
-import { StyleSheet, Text, View, TextInput, Button, TouchableOpacity, SafeAreaView, FlatList, ScrollView, FlatListComponent } from "react-native";
+import { StyleSheet, Text, View, Button, TouchableOpacity, SafeAreaView, FlatList, ScrollView, FlatListComponent } from "react-native";
+import GoalInput from "./components/GoalInput";
+import GoalItem from "./components/GoalItem";
 
 export default function App() {
 
